@@ -1,0 +1,6 @@
+@babel/cli
+@babel/core
+@babel/preset-env
+babel-loader
+webpack
+webpack-cli

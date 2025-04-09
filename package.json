@@ -2,12 +2,15 @@
   "name": "@ivanpyatanin/ajs",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IvanPyatanin/ajs.git"
+    "url": "git+https://git@github.com/IvanPyatanin/ajs.git"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +18,13 @@
     "url": "https://github.com/IvanPyatanin/ajs/issues"
   },
   "homepage": "https://github.com/IvanPyatanin/ajs#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1"
+  }
 }
