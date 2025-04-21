@@ -1,0 +1,19 @@
+{
+  "name": "@ivanpyatanin/ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/IvanPyatanin/ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanPyatanin/ajs/issues"
+  },
+  "homepage": "https://github.com/IvanPyatanin/ajs#readme"
+}
